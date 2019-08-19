@@ -12,6 +12,7 @@
 		660E31C8230B51210080126E /* URLSesson+NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E31C7230B51210080126E /* URLSesson+NetworkDataLoader.swift */; };
 		660E31CA230B54EA0080126E /* MarsRoverClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E31C9230B54EA0080126E /* MarsRoverClientTests.swift */; };
 		660E31CC230B55550080126E /* MockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E31CB230B55550080126E /* MockLoader.swift */; };
+		660E31CE230B566D0080126E /* MockJSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E31CD230B566D0080126E /* MockJSONData.swift */; };
 		9DBD20092140D1300047905E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD20082140D1300047905E /* AppDelegate.swift */; };
 		9DBD20102140D1300047905E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD200F2140D1300047905E /* Assets.xcassets */; };
 		9DBD20132140D1300047905E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD20112140D1300047905E /* LaunchScreen.storyboard */; };
@@ -48,6 +49,7 @@
 		660E31C7230B51210080126E /* URLSesson+NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSesson+NetworkDataLoader.swift"; sourceTree = "<group>"; };
 		660E31C9230B54EA0080126E /* MarsRoverClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverClientTests.swift; sourceTree = "<group>"; };
 		660E31CB230B55550080126E /* MockLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoader.swift; sourceTree = "<group>"; };
+		660E31CD230B566D0080126E /* MockJSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJSONData.swift; sourceTree = "<group>"; };
 		9DBD20052140D1300047905E /* Astronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBD20082140D1300047905E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBD200F2140D1300047905E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				660E31BD230B50780080126E /* AstronomyTests.swift */,
 				660E31C9230B54EA0080126E /* MarsRoverClientTests.swift */,
+				660E31CD230B566D0080126E /* MockJSONData.swift */,
 				660E31CB230B55550080126E /* MockLoader.swift */,
 				660E31BF230B50780080126E /* Info.plist */,
 			);
@@ -301,6 +304,7 @@
 				660E31CA230B54EA0080126E /* MarsRoverClientTests.swift in Sources */,
 				660E31BE230B50780080126E /* AstronomyTests.swift in Sources */,
 				660E31CC230B55550080126E /* MockLoader.swift in Sources */,
+				660E31CE230B566D0080126E /* MockJSONData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
